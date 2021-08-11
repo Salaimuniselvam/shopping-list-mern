@@ -1,0 +1,30 @@
+{
+  "name": "shopping-list-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salaimuniselvam/shopping-list-mern.git"
+  },
+  "author": "salaimuniselvam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Salaimuniselvam/shopping-list-mern/issues"
+  },
+  "homepage": "https://github.com/Salaimuniselvam/shopping-list-mern#readme",
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.6",
+    "webpack": "^5.50.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
